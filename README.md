@@ -1,2 +1,2 @@
-# EsylusMusic
-Music Portfolio
+# KouskMusic
+A musician portfolio
