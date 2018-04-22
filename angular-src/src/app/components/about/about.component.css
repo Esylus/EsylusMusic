@@ -14,7 +14,7 @@ section {
 /* -------------------------------------Hero Parralax---------- */
 
 .bgHome {
-	background: url('../../../assets/images/home.jpg') no-repeat center center fixed;
+	background: url('../../../assets/images/roots.png') no-repeat center center fixed;
 	display: table;
 	position: relative;
 	height: 100vh;
@@ -25,7 +25,7 @@ section {
 
 .bgHome:before{
 	content: '';
-	background: url('../../../assets/images/home.jpg') no-repeat center center fixed;
+	background: url('../../../assets/images/roots.png') no-repeat center center fixed;
 	top: 0;
 	left: 0;
 	height: 100vh;
@@ -62,10 +62,10 @@ section {
 
      /* About text */
 .about h6 {
-    font-size: 200%;
+    font-size: 150%;
     font-weight: 500;
-    color: #FFF ;
-    text-shadow: 2px 2px 1px #000;     
+    color: #000 ;
+    text-shadow: 2px 2px 1px #FFF;     
     padding-bottom: 20px; 
     }
 
