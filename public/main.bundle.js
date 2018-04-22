@@ -103,7 +103,7 @@ var appRoutes = [
     { path: '', component: __WEBPACK_IMPORTED_MODULE_8__components_home_home_component__["a" /* HomeComponent */] },
     { path: 'about', component: __WEBPACK_IMPORTED_MODULE_10__components_about_about_component__["a" /* AboutComponent */] },
     { path: 'contact', component: __WEBPACK_IMPORTED_MODULE_11__components_contact_contact_component__["a" /* ContactComponent */] },
-    { path: 'portfolio', component: __WEBPACK_IMPORTED_MODULE_9__components_portfolio_portfolio_component__["a" /* PortfolioComponent */] },
+    // {path:'portfolio', component: PortfolioComponent},
     { path: '404', component: __WEBPACK_IMPORTED_MODULE_12__components_notfound_notfound_component__["a" /* NotfoundComponent */] },
     { path: '**', redirectTo: '/404' }
 ];
@@ -326,7 +326,7 @@ module.exports = "\r\n\r\nnav.navbar {\r\n    background-color: black;\r\n    po
 /***/ "./src/app/components/navbar/navbar.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\r\n\r\n<nav class=\"navbar navbar-expand-md navbar-dark fixed-bottom  justify-content-center\" >\r\n\t<div class=\"container-fluid\">\r\n\t\t<a class=\"navbar-brand\" ></a>\r\n\t\t<button class=\"navbar-toggler \" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\">\r\n\t\t\t<span class=\"navbar-toggler-icon\"></span>\r\n\t\t</button>\r\n\t\t<div class=\"collapse navbar-collapse justify-content-between align-items-center w-100\" id=\"navbarResponsive\">\r\n\t\t\t<ul class=\"navbar-nav ml-auto mx-auto text-center\">\r\n\t\t\t\t<li class=\"nav-item\" active><a class=\"nav-link\" [routerLink]=\"['/']\">Home</a></li>\r\n\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link\" [routerLink]=\"['/portfolio']\">Portfolio</a></li>\r\n\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link\" [routerLink]=\"['/about']\" >About</a></li>\r\n\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link\" [routerLink]=\"['/contact']\">Contact</a></li>\r\n\t\t\t</ul>\r\n\t\t</div>\r\n\t</div>\r\n</nav>"
+module.exports = "\r\n\r\n<nav class=\"navbar navbar-expand-md navbar-dark fixed-bottom  justify-content-center\" >\r\n\t<div class=\"container-fluid\">\r\n\t\t<a class=\"navbar-brand\" ></a>\r\n\t\t<button class=\"navbar-toggler \" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\">\r\n\t\t\t<span class=\"navbar-toggler-icon\"></span>\r\n\t\t</button>\r\n\t\t<div class=\"collapse navbar-collapse justify-content-between align-items-center w-100\" id=\"navbarResponsive\">\r\n\t\t\t<ul class=\"navbar-nav ml-auto mx-auto text-center\">\r\n\t\t\t\t<li class=\"nav-item\" active><a class=\"nav-link\" [routerLink]=\"['/']\">Home</a></li>\r\n\t\t\t\t<!-- <li class=\"nav-item\"><a class=\"nav-link\" [routerLink]=\"['/portfolio']\">Portfolio</a></li> -->\r\n\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link\" [routerLink]=\"['/about']\" >Music</a></li>\r\n\t\t\t\t<li class=\"nav-item\"><a class=\"nav-link\" [routerLink]=\"['/contact']\">Contact</a></li>\r\n\t\t\t</ul>\r\n\t\t</div>\r\n\t</div>\r\n</nav>"
 
 /***/ }),
 

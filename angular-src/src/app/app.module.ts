@@ -19,7 +19,7 @@ const appRoutes: Routes = [  // url:component routing
   {path:'', component: HomeComponent},
   {path:'about', component: AboutComponent},
   {path:'contact', component: ContactComponent},
-  {path:'portfolio', component: PortfolioComponent},
+  // {path:'portfolio', component: PortfolioComponent},
   {path: '404', component: NotfoundComponent},
   {path: '**', redirectTo: '/404'}
 ]
